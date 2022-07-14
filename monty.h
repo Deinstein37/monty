@@ -1,5 +1,5 @@
-#ifndef __MONTY_H__
-#define __MONTY_H__
+#ifndef __MONTY__H
+#define __MONTY__H
 
 #include <stdio.h>
 #include <unistd.h>
@@ -17,7 +17,11 @@
  * @next: points to the next element of the stack (or queue)
  *
  * Description: doubly linked list node structure
+<<<<<<< HEAD
  * for stack, queues, LIFO, FIFO
+=======
+ * for stack, queues, LIFO, FIFO 
+>>>>>>> b4eb299b6bba8877c25c87c7d8c6b8e21041fda1
  */
 typedef struct stack_s
 {
@@ -84,4 +88,8 @@ void string_err(int error_code, ...);
 void rotr(stack_t **, unsigned int);
 
 
+<<<<<<< HEAD
 #endif /*__MONTY_H*/
+=======
+#endif /*__MONTY__H*/
+>>>>>>> b4eb299b6bba8877c25c87c7d8c6b8e21041fda1
